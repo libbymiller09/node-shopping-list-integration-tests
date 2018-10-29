@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: PqwsotJU1anp3PGgw4/sS41j/vB3ZPgj8ywv9Hv96r1QoXBP7PAKxK9YQvA3uAOh7mu23VNhOdTPpe4Mxx5Gx7OmyxVkYOfPiMe4do8b0H0zzsNK7OYu7x2S7y2b/8VhrNfTCEv1lViphgYLhbrsm7y0FV9nXyFGvIX+vccY+uIQv4GscTze09hnQd9CGGVoCb5qcoK93LX7txmMLndExa/3KMbr/HFempFkruD0em+QOZvcnEW0yza0chBwJqpeJvduCYek+K67EQOjUGGTVR/Kei1ZnRgT7yGev7EwwGxL2fTdBy+1n3pF/uf8tcGkxvi1NdGFDs+KRawLg078Pm8EhjGRZ8A+7FWfbR6qyC96kg4kp1gxk1oJaVkC/q7DujhR2PtvCxfbLJ1iQ6puTxN55U6i55qvL3Guo4VxzmZ7/2U61R+euF8C6gDYsRg5EUTRc2icghhtyj4vbBHKiX/I2E+QimHxSpIbVyn8wbqpQYuLk73ACq/F2BYtmrTGXo2xP+T5CQO05llPJ5KyTWZ89VIZVd3RzgQqXGUl6ITVDh49a+XXfr1I4Fdo1NR8m7g+VaQ0QQ8zIeb2rnvxv9RqpsmIXwR1+eCg3D9/+ERI8YRh0V9nUAhxLKQNYqFdL0wWXRfpEAUAQZEOgYZyfxeHqRLSpNOpuNUtl3Bvp7Y=
+  app: https://fierce-depths-20281.herokuapp.com/
+  on:
+    repo: libbymiller09/node-shopping-list-integration-tests
